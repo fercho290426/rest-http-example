@@ -4,9 +4,9 @@ metadata:
 components:
   - name: tools
     container:
-      image: registry.redhat.io/devspaces/udi-rhel8:3.4
+      image: registry.redhat.io/devspaces/udi-rhel9:3.24
       env:
-        - name: USE_JAVA8
+        - name: USE_JAVA21
           value: "true"
       memoryLimit: 3Gi
       endpoints:
